@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void showMsg(){
-        Toast.makeText(getApplicationContext(),"git example",Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(),"git updated ",Toast.LENGTH_LONG).show();
     }
 
 
