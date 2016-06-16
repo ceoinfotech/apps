@@ -14,6 +14,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.Calendar;
 
@@ -34,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
 
       //  this.registerReceiver(ReceivefromService, new IntentFilter("CUSTOMINTENT"));
         //
+        showMsg();
 
     }
 
@@ -70,4 +72,17 @@ public class MainActivity extends AppCompatActivity {
         // Intent intent = new Intent(this, Myservice1.class);
         //startService(intent);
     }
+
+
+
+
+    public void showMsg(){
+        Toast.makeText(getApplicationContext(),"git example",Toast.LENGTH_LONG).show();
+    }
+
+
+
+
+
+
 }
